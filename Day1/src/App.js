@@ -52,7 +52,7 @@ function App() {
         <TextField
           id="standard-basic"
           label="Password"
-          variant="standard"
+          variant="outlined"
         />{" "}
       </div>
       <div>
