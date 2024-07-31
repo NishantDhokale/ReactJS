@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="fixed">
         <Toolbar>
           <IconButton
             size="large"
@@ -31,8 +31,10 @@ const Navbar = () => {
           </Typography>
           <Button color="inherit">Home</Button>
           <Button color="inherit">About</Button>
+          <Button color="inherit">Registration</Button>
           <Button color="inherit">Profile</Button>
-          <Button color="inherit">Login</Button>
+          
+          
         </Toolbar>
       </AppBar>
     </Box>
